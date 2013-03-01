@@ -33,3 +33,9 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# database
+db/db.sqlite
+
+# django related
+static/admin/*

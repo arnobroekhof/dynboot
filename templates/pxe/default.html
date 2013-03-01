@@ -1,0 +1,8 @@
+ui menu.c32
+menu title {{ defaultboot }}
+{% for option in defaultboot.boot_options.all %}
+
+label {{ option.label }}
+menu label {{ option.menu_label }}
+{{ option.options }}
+{% endfor %}
