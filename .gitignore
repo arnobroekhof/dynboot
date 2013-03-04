@@ -39,3 +39,6 @@ db/db.sqlite
 
 # django related
 static/admin/*
+
+# ignore settings.py
+dynboot/setting.py
